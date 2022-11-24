@@ -7,10 +7,9 @@ The core purpose of the model is benefical for all compaines to ensure that the 
 Without this model, organizations would just be making educated guesses and it is always better to base ideas and conclusions on outcomes from data. 
 
 (2) Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of both machine learning models.
-- Original Data
-  - 
-- Testing Data
-  - 
+The accuracy scores predicts accuracy of correct predictions. 
+The output for the accuracy score is <function accuracy_score at 0x7fe48d93d9d0>, which is not the outcome I was expecting and therefor I require some assistance into why this was the case. 
+My expectation was a 1 or a 0 to let me know the health of the predictions. 
 
 (3) Summarize the results from the machine learning models. Compare the two versions of the dataset predictions. Include your recommendation, if any, for the model to use the original vs. the resampled data. If you don’t recommend either model, justify your reasoning.
 In the real world, from doing some additional reading it was highlighted tha the model expected to have better performance is the test set. By using two models, you work towards eliminating data discrepencies. 
